@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Concept page</title>
-		<link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>">
-	</head>
-	<body>
-		<div id="main">
-			<header>
-				<div class="logo"></div>
-				<nav class="main-menu">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">History</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Pricing</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><img src="<?php bloginfo('stylesheet_directory')?>/img/search-icon.png" alt=""></li>
-					</ul>
-				</nav>
+<?php get_header(); ?>
 
-			</header>
 			<div id="branding">
 				<img src="<?php bloginfo('stylesheet_directory')?>/img/branding-pic.png" alt="">
 				<img src="<?php bloginfo('stylesheet_directory')?>/img/arrow-down.png" alt="">
@@ -289,20 +265,4 @@
 				<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
 				<div class="button">send</div>
 			</div>
-			<footer>
-				<div class="footer-logo">TREND</div>
-				<div class="social-media">
-					<span>facebook</span>
-					<span>twitter</span>
-					<span>instagram</span>
-					<span>pinterest</span>
-					<span>google+</span>
-				</div>
-				<div class="copyright">
-					copyright @ 2015 by designstag. all rights reserved
-				</div>
-
-			</footer>
-		</div>
-	</body>
-</html>
+			<?php get_footer(); ?>

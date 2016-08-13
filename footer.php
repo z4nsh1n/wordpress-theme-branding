@@ -1,16 +1,18 @@
-      <hr>
 
-      <footer>
-        <p>&copy; Company 2012
-		<?php dynamic_sidebar('sidebar-2'); ?>
-		</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<?php wp_footer(); ?>
-  </body>
+			<footer>
+				<div class="footer-logo">TREND</div>
+				<div class="social-media">
+					<span>facebook</span>
+					<span>twitter</span>
+					<span>instagram</span>
+					<span>pinterest</span>
+					<span>google+</span>
+				</div>
+				<div class="copyright">
+					copyright @ 2015 by designstag. all rights reserved
+				</div>
+				<?php wp_footer(); ?>
+			</footer>
+		</div>  <!-- div #main--> 
+	</body>
 </html>
