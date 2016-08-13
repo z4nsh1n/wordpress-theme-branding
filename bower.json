@@ -1,0 +1,22 @@
+{
+  "name": "wpbootstrap",
+  "authors": [
+    "Richard van Berkum <z4nshin@gmail.com>"
+  ],
+  "description": "A bootstrap theme",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "normalize-css": "^4.2.0"
+  }
+}
