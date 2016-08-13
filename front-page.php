@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 			<div id="branding">
-				<img src="<?php bloginfo('stylesheet_directory')?>/img/branding-pic.png" alt="">
+				<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/branding-pic.png" alt="">
 				<img src="<?php bloginfo('stylesheet_directory')?>/img/arrow-down.png" alt="">
 				<div class="disc-line"></div>
 				<span class="center discovery">Discovery</span>
@@ -10,7 +10,7 @@
 				<div class="v-line"></div>
 				<h2 class="center">our history</h2>
 				<h3 class="center">We are a creative performance agency</h3>
-				<img class="center" src="<?php bloginfo('stylesheet_directory')?>/img/history-pic.png" alt="">
+				<img class="img-responsive center" src="<?php bloginfo('stylesheet_directory')?>/img/history-pic.png" alt="">
 				<div class="container">
 					<p>
 						Sit repudiandae voluptatibus aut culpa perspiciatis, veritatis in, repudiandae minima reprehenderit error ut at? Ea quisquam eaque unde architecto dolorem sapiente iusto! Ducimus consectetur placeat ad inventore corporis delectus distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
