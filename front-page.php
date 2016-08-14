@@ -27,6 +27,7 @@
 				<h3 class="center">We create the best service</h3>
 				<div class="container">
 					<div class="row">
+						<?php dynamic_sidebar('services'); ?>
 						<div class="col-md-4">
 							<div class="service">
 								<img src="<?php bloginfo('stylesheet_directory')?>/img/service-design.png" alt="">
@@ -75,15 +76,15 @@
 				</div>
 				<div class="v-line"></div>
 			</div>
-			<div id="projects">
+			<div id="projects" class="container-fluid">
 				<div class="v-line"></div>
 				<h2>latest projects</h2>
 				<div class="center">
-				<div class="btn btn-default"><a href="#">all</a></div>
-				<div class="btn btn-default"><a href="#">brochure</a></div>
-				<div class="btn btn-default"><a href="#">web</a></div>
-				<div class="btn btn-default"><a href="#">photography</a></div>
-				<div class="btn btn-default"><a href="#">illustrator</a></div>
+				<div class="btn btn-default prj-btn"><a href="#">all</a></div>
+				<div class="btn btn-default prj-btn"><a href="#">brochure</a></div>
+				<div class="btn btn-default prj-btn"><a href="#">web</a></div>
+				<div class="btn btn-default prj-btn"><a href="#">photography</a></div>
+				<div class="btn btn-default prj-btn"><a href="#">illustrator</a></div>
 				</div>
 			</div>
 			<img src="" alt="">
