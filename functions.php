@@ -93,7 +93,7 @@ class ServiceWidget extends WP_Widget{
 	<input class='widefat' id='<?php echo $this->get_field_id('image_url');?>' name='<?php echo $this->get_field_name('image_url')?>'
 		value='<?php echo esc_attr($image_url);?>'>
 	<br>
-	<img class="icon_preview" style="margin: 15px 0px;"src="<?php echo $image_url?>" alt="">
+	<img class="icon_preview" style="margin: 15px 0px;" src="<?php echo $image_url?>" alt="">
 	<br>
 
 	<label for="<?php echo $this->get_field_name('title')?>"><?php _e('Title: ');?></label>

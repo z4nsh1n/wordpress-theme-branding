@@ -110,6 +110,13 @@ body {
   background-repeat: repeat-y;
   background-image: url(img/bg-line-down.png);
 }
+.h-line {
+  width: 48px;
+  height: 2px;
+  margin: 4px auto 13px auto;
+  background-repeat: repeat-x;
+  background-image: url(img/bg-line-horz.png);
+}
 h1,
 h2,
 h3,
@@ -147,13 +154,6 @@ header img.brand {
 }
 #branding .discovery {
   margin-bottom: 21px;
-}
-#branding .disc-line {
-  width: 48px;
-  height: 2px;
-  margin: 4px auto 13px auto;
-  background-repeat: repeat-x;
-  background-image: url(img/bg-line-horz.png);
 }
 .hist-buttons {
   padding: 70px 0px 88px 0px;
@@ -206,6 +206,7 @@ header img.brand {
 }
 #projects {
   background: white;
+  text-align: center;
 }
 #projects h2 {
   margin-top: 30px;
@@ -214,4 +215,24 @@ header img.brand {
 }
 #projects .prj-btn {
   margin-top: 15px;
+}
+#projects .h-line {
+  width: 67px;
+}
+.project-buttons {
+  margin-bottom: 60px;
+}
+.project-columns {
+  -moz-column-count: 4;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 30px;
+  column-count: 4;
+  column-gap: 30px;
+  height: 600px;
+}
+.project-columns img {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 0px;
 }
