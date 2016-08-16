@@ -40,7 +40,7 @@
 					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#history">history</a></li>
 					<li><a href="#services">services</a></li>
-					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#pf-blocks">portfolio</a></li>
 					<li><a href="#pricing">pricing</a></li>
 					<li><a href="#blog">blog</a></li>
 					<li><a href="#contact">contact</a></li>

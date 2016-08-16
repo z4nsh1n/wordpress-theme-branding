@@ -82,6 +82,9 @@
   font-weight: 900;
   letter-spacing: 5px;
 }
+.navbar-right {
+  margin-right: -50px;
+}
 .navbar-brand {
   padding: 0 15px;
   margin-top: 35px;
@@ -102,6 +105,10 @@ body {
 .center {
   display: block;
   text-align: center;
+}
+.center-col {
+  float: none;
+  margin: 0 auto;
 }
 .v-line {
   width: 2px;

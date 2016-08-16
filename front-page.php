@@ -79,12 +79,14 @@
 				<div id="projects" class="container-fluid">
 					<div class="v-line"></div>
 					<h2>latest projects</h2>
-					<div class="project-buttons center">
-						<div class="btn btn-default prj-btn"><a href="#">all</a></div>
-						<div class="btn btn-default prj-btn"><a href="#">brochure</a></div>
-						<div class="btn btn-default prj-btn"><a href="#">web</a></div>
-						<div class="btn btn-default prj-btn"><a href="#">photography</a></div>
-						<div class="btn btn-default prj-btn"><a href="#">illustrator</a></div>
+					<div class="project-buttons ">
+						<div class="center-block">
+						<div class="btn btn-default"><a href="#">all</a></div>
+						<div class="btn btn-default"><a href="#">brochure</a></div>
+						<div class="btn btn-default"><a href="#">web</a></div>
+						<div class="btn btn-default"><a href="#">photography</a></div>
+						<div class="btn btn-default"><a href="#">illustrator</a></div> 
+						</div>
 					</div>
 					<div class="project-columns">
 						<!-- TODO: Load images dynamic from project pages -->
@@ -102,7 +104,7 @@
 					<div class="h-line view-more"></div>
 				</div>
 				<div class="container-fluid">
-					<div id="pf-blocks" class="row">
+					<div id="pf-blocks" class="center-block">
 						<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
 							<div class="center v-center">
 								<div class="nr">26</div>
@@ -111,26 +113,26 @@
 						</div>
 						<div class="col-xs-12 col-md-2 pf_block">
 							<div class="center v-center">
-							<div class="nr">48</div>
-							<span>portfolio worked</span>
+								<div class="nr">48</div>
+								<span>portfolio worked</span>
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-2 pf_block">
 							<div class="center v-center">
-							<div class="nr">16</div>
-							<span>awards won</span>
+								<div class="nr">16</div>
+								<span>awards won</span>
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-2 pf_block">
 							<div class="center v-center">
-							<div class="nr">97</div>
-							<span>cups of coffee</span>
+								<div class="nr">97</div>
+								<span>cups of coffee</span>
 							</div>
 						</div>
 						<div class="col-xs-12 col-md-2 pf_block">
 							<div class="center v-center">
-							<div class="nr">73</div>
-							<span>client worked with</span>
+								<div class="nr">73</div>
+								<span>client worked with</span>
 							</div>
 						</div>
 					</div>
