@@ -50,6 +50,9 @@ h1,h2,h3,h4,h5 {
 	text-transform: uppercase;
 
 }
+a:hover {
+	text-decoration: none;
+}
 h2 {
 	font-size: 24px;
 	margin-bottom: 20px;
@@ -140,6 +143,7 @@ header {
 #projects {
 	background: white;
 	text-align: center;
+	padding-bottom: 63px;
 
 	h2 {
 		margin-top: 30px;
@@ -153,6 +157,10 @@ header {
 	.h-line {
 		width: 67px;
 	}
+	.view-more {
+		text-transform: uppercase;
+		color: #000;
+	}
 }
 .project-buttons {
 	margin-bottom: 60px;
@@ -164,7 +172,7 @@ header {
     -webkit-column-gap: 30px;
     column-count: 4;
     column-gap: 30px;
-	height: 600px;
+//	height: 600px;
 
 	img {
 		display: inline-block;
@@ -173,4 +181,31 @@ header {
 	}
 }
 
-
+#pf-blocks {
+	span {
+		font-size: 10px;
+		text-transform: uppercase;
+		
+	}
+	.pf_block {
+		//width: 192px;
+		max-width: 100%;
+		height: 106px;
+		border-right: 1px solid #e0e0e0;
+		position: relative;
+		margin-top: 15px;
+	}
+	.pf_block:last-child{
+		border: none;
+	}
+	.v-center {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.nr {
+		font-size: 32px;
+		font-weight: bold;
+	}
+}

@@ -88,39 +88,52 @@
 					</div>
 					<div class="project-columns">
 						<!-- TODO: Load images dynamic from project pages -->
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/candle.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/cups.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/landscape.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/book.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/pencil.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/box.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/stamp.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/cup.png" alt="">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/project/bag.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/candle.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cups.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/landscape.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/book.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/pencil.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/box.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/stamp.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cup.png" alt="">
+						<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/bag.png" alt="">
 					</div>
-	<span>view more</span>
-	<div class="h-line view-more"></div>
-
+					<span><a href="#">view more</a></span>
+					<div class="h-line view-more"></div>
 				</div>
-				<div class="pf_blocks">
-					<div class="nr">26</div>
-					<span>client worked with</span>
-				</div>
-				<div class="pf_blocks">
-					<div class="nr">48</div>
-					<span>portfolio worked</span>
-				</div>
-				<div class="pf_blocks">
-					<div class="nr">16</div>
-					<span>awards won</span>
-				</div>
-				<div class="pf_blocks">
-					<div class="nr">97</div>
-					<span>cups of coffee</span>
-				</div>
-				<div class="pf_blocks">
-					<div class="nr">73</div>
-					<span>client worked with</span>
+				<div class="container-fluid">
+					<div id="pf-blocks" class="row">
+						<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
+							<div class="center v-center">
+								<div class="nr">26</div>
+								<span>client worked with</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-2 pf_block">
+							<div class="center v-center">
+							<div class="nr">48</div>
+							<span>portfolio worked</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-2 pf_block">
+							<div class="center v-center">
+							<div class="nr">16</div>
+							<span>awards won</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-2 pf_block">
+							<div class="center v-center">
+							<div class="nr">97</div>
+							<span>cups of coffee</span>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-2 pf_block">
+							<div class="center v-center">
+							<div class="nr">73</div>
+							<span>client worked with</span>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div id="team">
 					<h2>our team</h2>
