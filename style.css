@@ -178,6 +178,9 @@ header img.brand {
 #history {
   background: #fff;
 }
+#history .container-fluid {
+  margin: 0 16%;
+}
 #history h2 {
   margin-top: 30px;
 }
