@@ -7,13 +7,18 @@
 @import url('css/bootstrap.css');
 @import url('css/reset.css');
 @import url(https://fonts.googleapis.com/css?family=Poppins);
+@media (min-width: 1200px) {
+  .container {
+    width: 1920px;
+  }
+}
 .btn {
   border-radius: 0px;
   padding: 13px 32px;
   text-transform: uppercase;
   font-family: Poppins;
   font-weight: 600;
-  margin: 0px 8px;
+  margin-right: 8px;
 }
 .btn-default a {
   color: #000;
@@ -24,7 +29,12 @@
 .btn-primary a {
   color: #fff;
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
+  header {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 1925px) {
   .navbar-header {
     float: none;
   }
@@ -100,9 +110,6 @@ body {
   font-size: 16px;
   font-family: Poppins;
 }
-#main {
-  width: 1920px;
-}
 .center {
   display: block;
   text-align: center;
@@ -148,7 +155,7 @@ h3 {
 }
 header {
   height: 80px;
-  margin: 30px auto 0 auto;
+  margin: 30px 380px 0 380px;
   position: relative;
 }
 header img.brand {
@@ -257,7 +264,6 @@ header img.brand {
   letter-spacing: 3px;
 }
 #pf-blocks .pf_block {
-  width: 20%;
   height: 250px;
   border-right: 1px solid #e0e0e0;
   position: relative;
@@ -286,14 +292,24 @@ header img.brand {
   margin: 0 260px;
 }
 #team .vertical-text {
-  -ms-transform: rotate(-90deg);
-  -ms-transform-origin: right top 0;
-  -webkit-transform: rotate(-90deg);
-  -webkit-transform-origin: right top 0;
-  transform: rotate(-90deg);
-  transform-origin: right top 0;
-  text-transform: uppercase;
-  margin-left: -47px;
+  /*
+		-ms-transform: rotate(-90deg);
+		-ms-transform-origin: right top 0;
+		-webkit-transform: rotate(-90deg);
+		-webkit-transform-origin: right top 0;
+		transform: rotate(-90deg);
+		transform-origin: right top 0;
+		text-transform: uppercase;
+		position: absolute;
+		left: 0;
+		span {
+			//padding: 0 15px;
+		}
+		margin-left: -47px;
+		*/
+  writing-mode: vertical-rl;
+  position: absolute;
+  font-size: 27px;
 }
 #team .h-line {
   display: inline-block;
@@ -318,6 +334,7 @@ header img.brand {
 #team .mem_info p {
   text-transform: uppercase;
   letter-spacing: 2;
+  text-align: center;
 }
 #team .mem_info p i {
   text-transform: none;
@@ -327,4 +344,21 @@ header img.brand {
 #team .mem_info .v-line {
   height: 24px;
   margin-bottom: 20px;
+}
+@media (max-width: 1200px) {
+  .vertical-text {
+    visibility: hidden;
+  }
+}
+@media (max-width: 992px) {
+  header {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  .project-columns {
+    -ms-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
 }

@@ -79,14 +79,21 @@
 				<div id="projects" class="container-fluid">
 					<div class="v-line"></div>
 					<h2>latest projects</h2>
-					<div class="project-buttons ">
-						<div class="center-block">
-						<div class="btn btn-default"><a href="#">all</a></div>
-						<div class="btn btn-default"><a href="#">brochure</a></div>
-						<div class="btn btn-default"><a href="#">web</a></div>
-						<div class="btn btn-default"><a href="#">photography</a></div>
-						<div class="btn btn-default"><a href="#">illustrator</a></div> 
+					<div class="project-buttons container-fluid">
+						<div class="center-block row">
+							<!--
+							<div class="col-xs-12 col-md-2 col-md-offset-1 btn btn-default"><a href="#">all</a></div>
+							<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">brochure</a></div>
+							<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">web</a></div>
+							<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">photography</a></div>
+							<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">illustrator</a></div> 
+							-->
 						</div>
+						<div class="col-xs-12 col-md-2 btn btn-default col-md-offset-1"><a href="#">all</a></div>
+						<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">brochure</a></div>
+						<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">web</a></div>
+						<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">photography</a></div>
+						<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">illustrator</a></div> 
 					</div>
 					<div class="project-columns">
 						<!-- TODO: Load images dynamic from project pages -->
@@ -104,8 +111,8 @@
 					<div class="h-line view-more"></div>
 				</div>
 				<div class="container-fluid">
-					<div id="pf-blocks" class="center-block">
-						<div class=" col-xs-12 col-md-2 pf_block">
+					<div id="pf-blocks" class="row">
+						<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
 							<div class="center v-center">
 								<div class="nr">26</div>
 								<span>client worked with</span>
@@ -140,55 +147,61 @@
 				<div id="team">
 					<div class="v-line"></div>
 					<h2 class="center title">our team</h2>
-					<div class="center row team">
-					<div class="member col-md-4">
-						<div class="vertical-text">
-							<div class="h-line"></div>
-							<span >instagram</span>
-							<div class="h-line"></div>
-							<span>twitter</span>
-							<div class="h-line"></div>
-							<span>facebook</span>
+					<div class="container-fluid ">
+						<div class="member col-sm-12 col-md-4">
+							<div class="center">
+								<div class="vertical-text">
+									<div class="h-line"></div>
+									<span >instagram</span>
+									<div class="h-line"></div>
+									<span>twitter</span>
+									<div class="h-line"></div>
+									<span>facebook</span>
+								</div>
+								<img  src="<?php bloginfo('stylesheet_directory')?>/img/team/emily.png" alt="">
+								<div class="mem_info">
+									<div class="v-line"></div>
+									<p>emily sanda</p>
+									<p><i>senior designer</i></p>
+								</div>
+							</div>
 						</div>
-					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/emily.png" alt="">
-						<div class="mem_info">
-							<div class="v-line"></div>
-							<p>emily sanda</p>
-							<p><i>senior designer</i></p>
+						<div class="member col-sm-12 col-md-4">
+							<div class="center">
+								<div class="vertical-text">
+									<div class="h-line"></div>
+									<span>instagram</span>
+									<div class="h-line"></div>
+									<span>twitter</span>
+									<div class="h-line"></div>
+									<span>facebook</span>
+								</div>
+								<img src="<?php bloginfo('stylesheet_directory')?>/img/team/nanoevil.png" alt="">
+								<div class="mem_info">
+									<div class="v-line"></div>
+									<p>nanoevel</p>
+									<p><i>co-founder</i></p>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="member col-md-4">
-						<div class="vertical-text">
-							<div class="h-line"></div>
-							<span>instagram</span>
-							<div class="h-line"></div>
-							<span>twitter</span>
-							<div class="h-line"></div>
-							<span>facebook</span>
+						<div class="member col-sm-12 col-md-4">
+							<div class="center">
+								<div class="vertical-text">
+									<div class="h-line"></div>
+									<span >instagram</span>
+									<div class="h-line"></div>
+									<span>twitter</span>
+									<div class="h-line"></div>
+									<span>facebook</span>
+								</div>
+								<img src="<?php bloginfo('stylesheet_directory')?>/img/team/susan.png" alt="">
+								<div class="mem_info">
+									<div class="v-line"></div>
+									<p>susan tran</p>
+									<p><i>marketing online</i></p>
+								</div>
+							</div>
 						</div>
-					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/nanoevil.png" alt="">
-						<div class="mem_info">
-							<div class="v-line"></div>
-							<p>nanoevel</p>
-							<p><i>co-founder</i></p>
-						</div>
-					</div>
-					<div class="member col-md-4">
-						<div class="vertical-text">
-							<div class="h-line"></div>
-							<span >instagram</span>
-							<div class="h-line"></div>
-							<span>twitter</span>
-							<div class="h-line"></div>
-							<span>facebook</span>
-						</div>
-					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/susan.png" alt="">
-						<div class="mem_info">
-							<div class="v-line"></div>
-							<p>susan tran</p>
-							<p><i>marketing online</i></p>
-						</div>
-					</div>
 					</div>
 				</div>
 				<div id="pricing">
