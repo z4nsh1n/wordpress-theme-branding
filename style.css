@@ -364,14 +364,11 @@ header img.brand {
 #pricing {
   padding-bottom: 100px;
 }
-#pricing .row {
-  margin-right: 320px;
-  margin-left: 320px;
-}
 .price-box {
   text-align: center;
   background: #fff;
   padding: 60px 0 60px 0;
+  margin: 15px auto;
 }
 .price-box .price {
   margin-bottom: 54px;
@@ -396,6 +393,29 @@ header img.brand {
 .price-box li {
   margin: 25px 0;
   font-style: italic;
+}
+#blog {
+  background: #fff;
+}
+#blog h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+#blog h3 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#blog .blog {
+  position: relative;
+}
+#blog .blog-info {
+  position: absolute;
+  left: 176px;
+}
+@media (min-width: 1200px) {
+  #pricing .col-lg-3 {
+    width: 22%;
+  }
 }
 @media (max-width: 1200px) {
   .vertical-text {

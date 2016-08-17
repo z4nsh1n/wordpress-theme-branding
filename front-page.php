@@ -206,11 +206,12 @@
 	</div>
 </div>
 <div id="pricing">
+	<!-- TODO: recommend corner, make settings in admin section -->
 	<div class="v-line"></div>
 	<h2 class="center title">our pricing</h2>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-3 col-lg-offset-2 col-md-4 col-sm-12">
 				<div class="price-box col-xs-12">
 					<h3>basic</h3>
 					<div class="h-line"></div>
@@ -226,7 +227,7 @@
 					<div class="btn btn-default">sign up</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-3 col-md-4 col-sm-12">
 				<div class="price-box col-xs-12">
 					<h3>advanced</h3>
 					<div class="h-line"></div>
@@ -242,7 +243,7 @@
 					<div class="btn btn-default">sign up</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="col-lg-3 col-md-4 col-sm-12">
 				<div class="price-box col-xs-12">
 					<h3>pro</h3>
 					<div class="h-line"></div>
@@ -262,30 +263,35 @@
 	</div> <!-- container -->
 </div>
 <div id="blog">
-	<h2>our blog</h2>
+	<div class="v-line"></div>
+	<h2 class="title center">our blog</h2>
 	<h3>we provide interactive digital experiences to clients</h3>
-	<div class="blog">
-		<img src="" alt="">
-		<div class="blog-info">
-			<div>
-				photography simple ideas
+	<div class="container-fluid">
+		<div class="row center">
+			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
+			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
+				<div class="blog-info">
+					<div>
+						photography simple ideas
+					</div>
+					<div>
+						by nanoevil|may,22th,2015
+					</div>
+				</div>
 			</div>
-			<div>
-				by nanoevil|may,22th,2015
+			<div class="blog col-md-4 col-sm-10 col-sm-offset-2">
+			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
+				<div class="blog-info">
+					<div>
+						a dream and a feeling
+					</div>
+					<div>
+						by nanoevil|may,22th,2015
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div class="blog">
-		<img src="" alt="">
-		<div class="blog-info">
-			<div>
-				a dream and a feeling
-			</div>
-			<div>
-				by nanoevil|may,22th,2015
-			</div>
-		</div>
-	</div>
+		</div> <!-- row -->
+	</div> <!-- container-fluid -->
 	<a href="#">view blog</a>
 </div>
 <div id="brands">
