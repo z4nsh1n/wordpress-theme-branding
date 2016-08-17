@@ -302,7 +302,12 @@ header img.brand {
 #team .member {
   position: relative;
 }
+#team .mem_info:hover {
+  background: #000;
+  color: #fff;
+}
 #team .mem_info {
+  color: #000;
   position: relative;
   width: 245px;
   height: 125px;
@@ -313,7 +318,11 @@ header img.brand {
 #team .mem_info p {
   text-transform: uppercase;
   letter-spacing: 2;
-  color: #000;
+}
+#team .mem_info p i {
+  text-transform: none;
+  font-family: georgia;
+  font-style: italic;
 }
 #team .mem_info .v-line {
   height: 24px;

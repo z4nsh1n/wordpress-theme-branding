@@ -144,7 +144,7 @@
 					<div class="member col-md-4">
 						<div class="vertical-text">
 							<div class="h-line"></div>
-							<span >instagrame</span>
+							<span >instagram</span>
 							<div class="h-line"></div>
 							<span>twitter</span>
 							<div class="h-line"></div>
@@ -154,13 +154,13 @@
 						<div class="mem_info">
 							<div class="v-line"></div>
 							<p>emily sanda</p>
-							<p>senior designer</p>
+							<p><i>senior designer</i></p>
 						</div>
 					</div>
 					<div class="member col-md-4">
 						<div class="vertical-text">
 							<div class="h-line"></div>
-							<span>instagrame</span>
+							<span>instagram</span>
 							<div class="h-line"></div>
 							<span>twitter</span>
 							<div class="h-line"></div>
@@ -170,13 +170,13 @@
 						<div class="mem_info">
 							<div class="v-line"></div>
 							<p>nanoevel</p>
-							<p>co-founder</p>
+							<p><i>co-founder</i></p>
 						</div>
 					</div>
 					<div class="member col-md-4">
 						<div class="vertical-text">
 							<div class="h-line"></div>
-							<span >instagrame</span>
+							<span >instagram</span>
 							<div class="h-line"></div>
 							<span>twitter</span>
 							<div class="h-line"></div>
@@ -186,7 +186,7 @@
 						<div class="mem_info">
 							<div class="v-line"></div>
 							<p>susan tran</p>
-							<p>marketing online</p>
+							<p><i>marketing online</i></p>
 						</div>
 					</div>
 					</div>
@@ -194,6 +194,7 @@
 				<div id="pricing">
 					<div class="price">
 						<h2>basic</h2>
+						<div class="h-line"></div>
 						<div class="price">
 							$10/monthly
 						</div>
