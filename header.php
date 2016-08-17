@@ -9,8 +9,7 @@
 		<?php wp_head(); ?>
 	</head>
 	<body>
-		<div id="main">
-		<div class="container">
+		<div id="main" class="container">
 			<header>
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">

@@ -18,11 +18,11 @@ body {
 	background: @gray;
 	color: @font-color;
 	font-size: 16px;
+	font-family: Poppins;
 }
 
 #main {
-	//width: 1920px;
-	margin: 0 auto;
+	width: 1920px;
 }
 
 .center {
@@ -69,7 +69,7 @@ h3 {
 	letter-spacing: 5px;
 }
 header {
-	background: #fff;
+//	background: #fff;
 	//width: 1170px;
 	height: 80px;
 	margin: 30px auto 0 auto;
@@ -188,14 +188,16 @@ header {
 
 #pf-blocks {
 	span {
-		font-size: 10px;
+		font-size: 12px;
+		font-weight: bold;
 		text-transform: uppercase;
+		letter-spacing: 3px;
 		
 	}
 	.pf_block {
 		//width: 192px;
-		max-width: 100%;
-		height: 106px;
+		width: 20%;
+		height: 250px;
 		border-right: 1px solid #e0e0e0;
 		position: relative;
 		margin-top: 15px;
@@ -210,7 +212,54 @@ header {
 		transform: translate(-50%, -50%);
 	}
 	.nr {
-		font-size: 32px;
+		font-size: 88px;
 		font-weight: bold;
+	}
+}
+#team {
+	background: #fff;
+	.title {
+		margin: 30px auto 60px auto;
+	}
+	.team {
+		margin: 0 260px;
+	}
+
+	.vertical-text{
+		-ms-transform: rotate(-90deg);
+		-ms-transform-origin: right top 0;
+		-webkit-transform: rotate(-90deg);
+		-webkit-transform-origin: right top 0;
+		transform: rotate(-90deg);
+		transform-origin: right top 0;
+		text-transform: uppercase;
+		span {
+			//padding: 0 15px;
+		}
+		margin-left: -47px;
+	}
+	.h-line {
+		display: inline-block;
+		margin: 2px auto 4px auto;
+	}
+	.member {
+		position: relative;
+	}
+	.mem_info{
+		position: relative;
+		width: 245px;
+		height: 125px;
+		top: -50px;
+		background: #f7f7f7;
+		margin: 0 auto;
+		p{
+			text-transform: uppercase;
+			letter-spacing: 2;
+			color: #000;
+		}
+		.v-line {
+			height: 24px;
+			margin-bottom: 20px;
+		}
 	}
 }

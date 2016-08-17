@@ -73,9 +73,9 @@
 }
 .navbar-default {
   background-color: #fff;
+  height: 80px;
 }
 .navbar {
-  min-height: 80px;
   border: 0px;
   font-family: Poppins;
   font-size: 11px;
@@ -98,9 +98,10 @@ body {
   background: #f7f7f7;
   color: #6a6a6a;
   font-size: 16px;
+  font-family: Poppins;
 }
 #main {
-  margin: 0 auto;
+  width: 1920px;
 }
 .center {
   display: block;
@@ -146,7 +147,6 @@ h3 {
   letter-spacing: 5px;
 }
 header {
-  background: #fff;
   height: 80px;
   margin: 30px auto 0 auto;
   position: relative;
@@ -251,12 +251,14 @@ header img.brand {
   padding: 15px 0px;
 }
 #pf-blocks span {
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 3px;
 }
 #pf-blocks .pf_block {
-  max-width: 100%;
-  height: 106px;
+  width: 20%;
+  height: 250px;
   border-right: 1px solid #e0e0e0;
   position: relative;
   margin-top: 15px;
@@ -271,6 +273,49 @@ header img.brand {
   transform: translate(-50%, -50%);
 }
 #pf-blocks .nr {
-  font-size: 32px;
+  font-size: 88px;
   font-weight: bold;
+}
+#team {
+  background: #fff;
+}
+#team .title {
+  margin: 30px auto 60px auto;
+}
+#team .team {
+  margin: 0 260px;
+}
+#team .vertical-text {
+  -ms-transform: rotate(-90deg);
+  -ms-transform-origin: right top 0;
+  -webkit-transform: rotate(-90deg);
+  -webkit-transform-origin: right top 0;
+  transform: rotate(-90deg);
+  transform-origin: right top 0;
+  text-transform: uppercase;
+  margin-left: -47px;
+}
+#team .h-line {
+  display: inline-block;
+  margin: 2px auto 4px auto;
+}
+#team .member {
+  position: relative;
+}
+#team .mem_info {
+  position: relative;
+  width: 245px;
+  height: 125px;
+  top: -50px;
+  background: #f7f7f7;
+  margin: 0 auto;
+}
+#team .mem_info p {
+  text-transform: uppercase;
+  letter-spacing: 2;
+  color: #000;
+}
+#team .mem_info .v-line {
+  height: 24px;
+  margin-bottom: 20px;
 }

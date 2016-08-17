@@ -105,7 +105,7 @@
 				</div>
 				<div class="container-fluid">
 					<div id="pf-blocks" class="center-block">
-						<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
+						<div class=" col-xs-12 col-md-2 pf_block">
 							<div class="center v-center">
 								<div class="nr">26</div>
 								<span>client worked with</span>
@@ -138,42 +138,57 @@
 					</div>
 				</div>
 				<div id="team">
-					<h2>our team</h2>
-					<div class="member">
-						<img src="" alt="">
-						<div class="vertical">
-							<span>instagrame</span>
+					<div class="v-line"></div>
+					<h2 class="center title">our team</h2>
+					<div class="center row team">
+					<div class="member col-md-4">
+						<div class="vertical-text">
+							<div class="h-line"></div>
+							<span >instagrame</span>
+							<div class="h-line"></div>
 							<span>twitter</span>
+							<div class="h-line"></div>
 							<span>facebook</span>
 						</div>
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/emily.png" alt="">
 						<div class="mem_info">
+							<div class="v-line"></div>
 							<p>emily sanda</p>
 							<p>senior designer</p>
 						</div>
 					</div>
-					<div class="member">
-						<img src="" alt="">
-						<div class="vertical">
+					<div class="member col-md-4">
+						<div class="vertical-text">
+							<div class="h-line"></div>
 							<span>instagrame</span>
+							<div class="h-line"></div>
 							<span>twitter</span>
+							<div class="h-line"></div>
 							<span>facebook</span>
 						</div>
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/nanoevil.png" alt="">
 						<div class="mem_info">
+							<div class="v-line"></div>
 							<p>nanoevel</p>
 							<p>co-founder</p>
 						</div>
 					</div>
-					<div class="member">
-						<img src="" alt="">
-						<div class="vertical">
-							<span>instagrame</span>
+					<div class="member col-md-4">
+						<div class="vertical-text">
+							<div class="h-line"></div>
+							<span >instagrame</span>
+							<div class="h-line"></div>
 							<span>twitter</span>
+							<div class="h-line"></div>
 							<span>facebook</span>
 						</div>
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/susan.png" alt="">
 						<div class="mem_info">
+							<div class="v-line"></div>
 							<p>susan tran</p>
 							<p>marketing online</p>
 						</div>
+					</div>
 					</div>
 				</div>
 				<div id="pricing">
