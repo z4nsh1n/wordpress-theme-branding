@@ -49,270 +49,272 @@
 					<img src="<?php bloginfo('stylesheet_directory')?>/img/service-development.png" alt="">
 					<h4>development</h4>
 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...
-					</div>
+					</p>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="service">
-						<img src="<?php bloginfo('stylesheet_directory')?>/img/service-social.png" alt="">
-						<h4>social media</h4>
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/service-social.png" alt="">
+					<h4>social media</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
 				</div>
 			</div>
 			<div class="col-md-4">
-					<div class="service">
-							<img src="<?php bloginfo('stylesheet_directory')?>/img/service-marketing.png" alt="">
-							<h4>marketing online</h4>
-							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...
-					</div>
+				<div class="service">
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/service-marketing.png" alt="">
+					<h4>marketing online</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+				</div>
 			</div>
 			<div class="col-md-4">
-					<div class="service">
-								<img src="<?php bloginfo('stylesheet_directory')?>/img/service-wordpress.png" alt="">
-								<h4>seller wordpress</h4>
-								<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...
-					</div>
+				<div class="service">
+					<img src="<?php bloginfo('stylesheet_directory')?>/img/service-wordpress.png" alt="">
+					<h4>seller wordpress</h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+				</div>
 			</div>
 		</div>  <!--row -->
-				</div> <!-- container -->
+	</div> <!-- container -->
+	<div class="v-line"></div>
+</div> <!-- services -->
+<div id="projects" class="container-fluid">
+	<div class="v-line"></div>
+	<h2>latest projects</h2>
+	<div class="project-buttons container-fluid">
+		<div class="center-block row">
+			<!--
+			<div class="col-xs-12 col-md-2 col-md-offset-1 btn btn-default"><a href="#">all</a></div>
+			<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">brochure</a></div>
+			<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">web</a></div>
+			<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">photography</a></div>
+			<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">illustrator</a></div> 
+			-->
+		</div>
+		<div class="col-xs-12 col-md-2 btn btn-default col-md-offset-1"><a href="#">all</a></div>
+		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">brochure</a></div>
+		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">web</a></div>
+		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">photography</a></div>
+		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">illustrator</a></div> 
+	</div>
+	<div class="project-columns">
+		<!-- TODO: Load images dynamic from project pages -->
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/candle.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cups.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/landscape.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/book.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/pencil.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/box.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/stamp.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cup.png" alt="">
+		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/bag.png" alt="">
+	</div>
+	<span><a href="#">view more</a></span>
+	<div class="h-line view-more"></div>
+</div>
+<div id="pf-blocks" class="container-fluid">
+	<div class="row">
+		<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
+			<div class="center v-center">
+				<div class="nr">26</div>
+				<span>client worked with</span>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2 pf_block">
+			<div class="center v-center">
+				<div class="nr">48</div>
+				<span>portfolio worked</span>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2 pf_block">
+			<div class="center v-center">
+				<div class="nr">16</div>
+				<span>awards won</span>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2 pf_block">
+			<div class="center v-center">
+				<div class="nr">97</div>
+				<span>cups of coffee</span>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-2 pf_block">
+			<div class="center v-center">
+				<div class="nr">73</div>
+				<span>client worked with</span>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="team">
+	<div class="v-line"></div>
+	<h2 class="center title">our team</h2>
+	<div class="container-fluid ">
+		<div class="member col-sm-12 col-md-4">
+			<div class="center">
+				<div class="vertical-text">
+					<span >instagram</span>
 					<div class="v-line"></div>
-			</div> <!-- services -->
-	<div id="projects" class="container-fluid">
-		<div class="v-line"></div>
-		<h2>latest projects</h2>
-		<div class="project-buttons container-fluid">
-			<div class="center-block row">
-				<!--
-				<div class="col-xs-12 col-md-2 col-md-offset-1 btn btn-default"><a href="#">all</a></div>
-				<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">brochure</a></div>
-				<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">web</a></div>
-				<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">photography</a></div>
-				<div class="col-xs-12 col-md-2 btn btn-default"><a href="#">illustrator</a></div> 
-				-->
+					<span>twitter</span>
+					<div class="v-line"></div>
+					<span>facebook</span>
+					<div class="v-line"></div>
+				</div>
+				<img  src="<?php bloginfo('stylesheet_directory')?>/img/team/emily.png" alt="">
+				<div class="mem_info">
+					<div class="v-line"></div>
+					<p>emily sanda</p>
+					<p><i>senior designer</i></p>
+				</div>
 			</div>
-			<div class="col-xs-12 col-md-2 btn btn-default col-md-offset-1"><a href="#">all</a></div>
-			<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">brochure</a></div>
-			<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">web</a></div>
-			<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">photography</a></div>
-			<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">illustrator</a></div> 
 		</div>
-		<div class="project-columns">
-			<!-- TODO: Load images dynamic from project pages -->
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/candle.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cups.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/landscape.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/book.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/pencil.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/box.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/stamp.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cup.png" alt="">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/bag.png" alt="">
+		<div class="member col-sm-12 col-md-4">
+			<div class="center">
+				<div class="vertical-text">
+					<span>instagram</span>
+					<div class="v-line"></div>
+					<span>twitter</span>
+					<div class="v-line"></div>
+					<span>facebook</span>
+					<div class="v-line"></div>
+				</div>
+				<img src="<?php bloginfo('stylesheet_directory')?>/img/team/nanoevil.png" alt="">
+				<div class="mem_info">
+					<div class="v-line"></div>
+					<p>nanoevel</p>
+					<p><i>co-founder</i></p>
+				</div>
+			</div>
 		</div>
-		<span><a href="#">view more</a></span>
-		<div class="h-line view-more"></div>
+		<div class="member col-sm-12 col-md-4">
+			<div class="center">
+				<div class="vertical-text">
+					<span >instagram</span>
+					<div class="v-line"></div>
+					<span>twitter</span>
+					<div class="v-line"></div>
+					<span>facebook</span>
+					<div class="v-line"></div>
+				</div>
+				<img src="<?php bloginfo('stylesheet_directory')?>/img/team/susan.png" alt="">
+				<div class="mem_info">
+					<div class="v-line"></div>
+					<p>susan tran</p>
+					<p><i>marketing online</i></p>
+				</div>
+			</div>
+		</div>
 	</div>
+</div>
+<div id="pricing">
+	<div class="v-line"></div>
+	<h2 class="center title">our pricing</h2>
 	<div class="container-fluid">
-		<div id="pf-blocks" class="row">
-			<div class=" col-xs-12 col-md-2 col-md-offset-1 pf_block">
-				<div class="center v-center">
-					<div class="nr">26</div>
-					<span>client worked with</span>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="price-box col-xs-12">
+					<h3>basic</h3>
+					<div class="h-line"></div>
+					<div class="price">
+						<span>$10</span>/monthly
+					</div>
+					<ul>
+						<li>full Access</li>
+						<li>unlimited bandwidth</li>
+						<li>email accounts</li>
+						<li>2 free forks every month</li>
+					</ul>
+					<div class="btn btn-default">sign up</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-2 pf_block">
-				<div class="center v-center">
-					<div class="nr">48</div>
-					<span>portfolio worked</span>
+			<div class="col-md-4 col-sm-12">
+				<div class="price-box col-xs-12">
+					<h3>advanced</h3>
+					<div class="h-line"></div>
+					<div class="price">
+						<span>$20</span>/monthly
+					</div>
+					<ul>
+						<li>full Access</li>
+						<li>unlimited bandwidth</li>
+						<li>email accounts</li>
+						<li>2 free forks every month</li>
+					</ul>
+					<div class="btn btn-default">sign up</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-2 pf_block">
-				<div class="center v-center">
-					<div class="nr">16</div>
-					<span>awards won</span>
+			<div class="col-md-4 col-sm-12">
+				<div class="price-box col-xs-12">
+					<h3>pro</h3>
+					<div class="h-line"></div>
+					<div class="price">
+						<span>$30</span>/monthly
+					</div>
+					<ul>
+						<li>full Access</li>
+						<li>unlimited bandwidth</li>
+						<li>email accounts</li>
+						<li>2 free forks every month</li>
+					</ul>
+					<div class="btn btn-default">sign up</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-md-2 pf_block">
-				<div class="center v-center">
-					<div class="nr">97</div>
-					<span>cups of coffee</span>
-				</div>
+		</div> <!-- row -->
+	</div> <!-- container -->
+</div>
+<div id="blog">
+	<h2>our blog</h2>
+	<h3>we provide interactive digital experiences to clients</h3>
+	<div class="blog">
+		<img src="" alt="">
+		<div class="blog-info">
+			<div>
+				photography simple ideas
 			</div>
-			<div class="col-xs-12 col-md-2 pf_block">
-				<div class="center v-center">
-					<div class="nr">73</div>
-					<span>client worked with</span>
-				</div>
+			<div>
+				by nanoevil|may,22th,2015
 			</div>
 		</div>
 	</div>
-	<div id="team">
-		<div class="v-line"></div>
-		<h2 class="center title">our team</h2>
-		<div class="container-fluid ">
-			<div class="member col-sm-12 col-md-4">
-				<div class="center">
-					<div class="vertical-text">
-						<div class="h-line"></div>
-						<span >instagram</span>
-						<div class="h-line"></div>
-						<span>twitter</span>
-						<div class="h-line"></div>
-						<span>facebook</span>
-					</div>
-					<img  src="<?php bloginfo('stylesheet_directory')?>/img/team/emily.png" alt="">
-					<div class="mem_info">
-						<div class="v-line"></div>
-						<p>emily sanda</p>
-						<p><i>senior designer</i></p>
-					</div>
-				</div>
+	<div class="blog">
+		<img src="" alt="">
+		<div class="blog-info">
+			<div>
+				a dream and a feeling
 			</div>
-			<div class="member col-sm-12 col-md-4">
-				<div class="center">
-					<div class="vertical-text">
-						<div class="h-line"></div>
-						<span>instagram</span>
-						<div class="h-line"></div>
-						<span>twitter</span>
-						<div class="h-line"></div>
-						<span>facebook</span>
-					</div>
-					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/nanoevil.png" alt="">
-					<div class="mem_info">
-						<div class="v-line"></div>
-						<p>nanoevel</p>
-						<p><i>co-founder</i></p>
-					</div>
-				</div>
-			</div>
-			<div class="member col-sm-12 col-md-4">
-				<div class="center">
-					<div class="vertical-text">
-						<div class="h-line"></div>
-						<span >instagram</span>
-						<div class="h-line"></div>
-						<span>twitter</span>
-						<div class="h-line"></div>
-						<span>facebook</span>
-					</div>
-					<img src="<?php bloginfo('stylesheet_directory')?>/img/team/susan.png" alt="">
-					<div class="mem_info">
-						<div class="v-line"></div>
-						<p>susan tran</p>
-						<p><i>marketing online</i></p>
-					</div>
-				</div>
+			<div>
+				by nanoevil|may,22th,2015
 			</div>
 		</div>
 	</div>
-	<div id="pricing">
-		<div class="price">
-			<h2>basic</h2>
-			<div class="h-line"></div>
-			<div class="price">
-				$10/monthly
-			</div>
-			<ul>
-				<li>full Access</li>
-				<li>unlimited bandwidth</li>
-				<li>email accounts</li>
-				<li>2 free forks every month</li>
-			</ul>
-			<div class="button">sign up</div>
-		</div>
-		<div class="price">
-			<h2>basic</h2>
-			<div class="price">
-				$20/monthly
-			</div>
-			<ul>
-				<li>full Access</li>
-				<li>unlimited bandwidth</li>
-				<li>email accounts</li>
-				<li>2 free forks every month</li>
-			</ul>
-			<div class="button">sign up</div>
-		</div>
-		<div class="price">
-			<h2>basic</h2>
-			<div class="price">
-				$10/monthly
-			</div>
-			<ul>
-				<li>full Access</li>
-				<li>unlimited bandwidth</li>
-				<li>email accounts</li>
-				<li>2 free forks every month</li>
-			</ul>
-			<div class="button">sign up</div>
-		</div>
-		<div class="price">
-			<h2>basic</h2>
-			<div class="price">
-				$30/monthly
-			</div>
-			<ul>
-				<li>full Access</li>
-				<li>unlimited bandwidth</li>
-				<li>email accounts</li>
-				<li>2 free forks every month</li>
-			</ul>
-			<div class="button">sign up</div>
-		</div>
+	<a href="#">view blog</a>
+</div>
+<div id="brands">
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+	<div class="brand"><img src="" alt=""></div>
+</div>
+<div id="contacts">
+	<div class="contact">
+		<img class="icon" src="" alt="">
+		<span>+84.963.868.345</span>
+		<input type="text" placeholder="* Your name">
 	</div>
-	<div id="blog">
-		<h2>our blog</h2>
-		<h3>we provide interactive digital experiences to clients</h3>
-		<div class="blog">
-			<img src="" alt="">
-			<div class="blog-info">
-				<div>
-					photography simple ideas
-				</div>
-				<div>
-					by nanoevil|may,22th,2015
-				</div>
-			</div>
-		</div>
-		<div class="blog">
-			<img src="" alt="">
-			<div class="blog-info">
-				<div>
-					a dream and a feeling
-				</div>
-				<div>
-					by nanoevil|may,22th,2015
-				</div>
-			</div>
-		</div>
-		<a href="#">view blog</a>
+	<div class="contact">
+		<img class="icon" src="" alt="">
+		<span>12345 nestolab street name - coral springs - florida - usa</span>
+		<input type="text" placeholder="* Your mail">
 	</div>
-	<div id="brands">
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
-		<div class="brand"><img src="" alt=""></div>
+	<div class="contact">
+		<img class="icon" src="" alt="">
+		<span>helladmin@trend.com</span>
+		<input type="text" placeholder="* Your subject">
 	</div>
-	<div id="contacts">
-		<div class="contact">
-			<img class="icon" src="" alt="">
-			<span>+84.963.868.345</span>
-			<input type="text" placeholder="* Your name">
-		</div>
-		<div class="contact">
-			<img class="icon" src="" alt="">
-			<span>12345 nestolab street name - coral springs - florida - usa</span>
-			<input type="text" placeholder="* Your mail">
-		</div>
-		<div class="contact">
-			<img class="icon" src="" alt="">
-			<span>helladmin@trend.com</span>
-			<input type="text" placeholder="* Your subject">
-		</div>
-		<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
-		<div class="button">send</div>
-	</div>
-	<?php get_footer(); ?>
+	<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
+	<div class="button">send</div>
+</div>
+<?php get_footer(); ?>

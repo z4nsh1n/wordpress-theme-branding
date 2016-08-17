@@ -132,6 +132,9 @@ body {
   background-repeat: repeat-x;
   background-image: url(img/bg-line-horz.png);
 }
+.title {
+  margin: 30px auto 60px auto;
+}
 h1,
 h2,
 h3,
@@ -139,6 +142,7 @@ h4,
 h5 {
   font-family: Poppins;
   text-transform: uppercase;
+  color: #000;
 }
 a:hover {
   text-decoration: none;
@@ -312,7 +316,16 @@ header img.brand {
 		*/
   writing-mode: vertical-rl;
   position: absolute;
-  font-size: 27px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: -12px;
+}
+#team .vertical-text .v-line {
+  display: inline-block;
+  height: 27px;
+  margin: 7px 0;
 }
 #team .h-line {
   display: inline-block;
@@ -347,6 +360,42 @@ header img.brand {
 #team .mem_info .v-line {
   height: 24px;
   margin-bottom: 20px;
+}
+#pricing {
+  padding-bottom: 100px;
+}
+#pricing .row {
+  margin-right: 320px;
+  margin-left: 320px;
+}
+.price-box {
+  text-align: center;
+  background: #fff;
+  padding: 60px 0 60px 0;
+}
+.price-box .price {
+  margin-bottom: 54px;
+  color: #000;
+  font-weight: bold;
+}
+.price-box .btn {
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+.price-box .btn:hover {
+  background: #000;
+  color: #fff;
+}
+.price-box .h-line {
+  width: 230px;
+  margin: 26px auto;
+}
+.price-box span {
+  font-size: 45px;
+}
+.price-box li {
+  margin: 25px 0;
+  font-style: italic;
 }
 @media (max-width: 1200px) {
   .vertical-text {

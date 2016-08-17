@@ -50,9 +50,13 @@ body {
 	background-image: url(img/bg-line-horz.png);
 }
 
+.title {
+	margin: 30px auto 60px auto;
+}
 h1,h2,h3,h4,h5 {
 	font-family: Poppins;
 	text-transform: uppercase;
+	color: #000;
 
 }
 a:hover {
@@ -246,7 +250,17 @@ header {
 		*/
 		writing-mode: vertical-rl;
 		position: absolute;
-		font-size: 27px;
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		margin-top: -12px;
+
+		.v-line {
+			display: inline-block;
+			height: 27px;
+			margin: 7px 0;
+		}
 	}
 	.h-line {
 		display: inline-block;
@@ -281,6 +295,47 @@ header {
 			height: 24px;
 			margin-bottom: 20px;
 		}
+	}
+}
+#pricing {
+	.row {
+		margin-right: 320px;
+		margin-left: 320px;
+	}
+	padding-bottom: 100px;
+}
+.price-box {
+	text-align: center;
+	background: #fff;
+	padding: 60px 0 60px 0;
+
+	.price {
+		margin-bottom: 54px;
+		color: #000;
+		font-weight: bold;
+
+	}
+	.btn {
+		margin-top: 30px;
+		letter-spacing: 3px;
+	}
+	.btn:hover {
+		background: #000;
+		color: #fff;
+	}
+	.h-line {
+		width: 230px;
+		margin: 26px auto;
+	}
+	h3 {
+//		padding-top: 60px;
+	}
+	span {
+		font-size: 45px;
+	}
+	li {
+		margin: 25px 0;
+		font-style: italic;
 	}
 }
 @media (max-width: 1200px){
