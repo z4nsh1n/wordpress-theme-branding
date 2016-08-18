@@ -4,7 +4,7 @@
 	<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/branding-pic.png" alt="">
 	<img src="<?php bloginfo('stylesheet_directory')?>/img/arrow-down.png" alt="">
 	<div class="h-line"></div>
-	<span class="center discovery">Discovery</span>
+	<span class="center discovery"><a href="#">Discovery</a></span>
 </div>
 <div id="history">
 	<div class="v-line"></div>
@@ -269,32 +269,39 @@
 	<div class="container-fluid">
 		<div class="row center">
 			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
+				<div class="col-xs-12">
+				<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
 				<div class="blog-info">
-					<div>
+					<h4>
 						photography simple ideas
-					</div>
+					</h4>
 					<div>
 						by nanoevil|may,22th,2015
 					</div>
 				</div>
+				</div>
 			</div>
-			<div class="blog col-md-4 col-sm-10 col-sm-offset-2">
-			<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
+			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
+				<div class="col-xs-12">
+				<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
 				<div class="blog-info">
-					<div>
-						a dream and a feeling
-					</div>
+					<h4>
+						photography simple ideas
+					</h4>
 					<div>
 						by nanoevil|may,22th,2015
 					</div>
+				</div>
 				</div>
 			</div>
 		</div> <!-- row -->
+		<div class="v-line"></div>
+	<span class="center view-blog"><a href="#">view blog</a></span>
+		<div class="h-line"></div>
 	</div> <!-- container-fluid -->
-	<a href="#">view blog</a>
 </div>
 <div id="brands">
+	<div class="v-line"></div>
 	<div class="brand"><img src="" alt=""></div>
 	<div class="brand"><img src="" alt=""></div>
 	<div class="brand"><img src="" alt=""></div>
