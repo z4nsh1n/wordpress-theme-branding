@@ -270,64 +270,96 @@
 		<div class="row center">
 			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
 				<div class="col-xs-12">
-				<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
-				<div class="blog-info">
-					<h4>
-						photography simple ideas
-					</h4>
-					<div>
-						by nanoevil|may,22th,2015
+					<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
+					<div class="blog-info">
+						<h4>
+							photography simple ideas
+						</h4>
+						<div>
+							by nanoevil|may,22th,2015
+						</div>
 					</div>
-				</div>
 				</div>
 			</div>
 			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
 				<div class="col-xs-12">
-				<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
-				<div class="blog-info">
-					<h4>
-						photography simple ideas
-					</h4>
-					<div>
-						by nanoevil|may,22th,2015
+					<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
+					<div class="blog-info">
+						<h4>
+							photography simple ideas
+						</h4>
+						<div>
+							by nanoevil|may,22th,2015
+						</div>
 					</div>
-				</div>
 				</div>
 			</div>
 		</div> <!-- row -->
 		<div class="v-line"></div>
-	<span class="center view-blog"><a href="#">view blog</a></span>
+		<span class="center view-blog"><a href="#">view blog</a></span>
 		<div class="h-line"></div>
 	</div> <!-- container-fluid -->
 </div>
 <div id="brands">
+	<!-- TODO: Add brand pics from admin area -->
 	<div class="v-line"></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
-	<div class="brand"><img src="" alt=""></div>
+	<h2 class="title center">our brand</h2>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/kasso.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/sixbase.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/newwave.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/flytech.png" alt=""></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/enginzyme.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/tulipart.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/sweet-revolver.png" alt=""></div>
+			</div>
+			<div class="col-md-2 col-sm-12">
+				<div class="brand"><img src="<?php bloginfo("stylesheet_directory")?>/img/brands/curve.png" alt=""></div>
+			</div>
+		</div> <!-- row -->
+	</div> <!-- container-fluid -->
 </div>
 <div id="contacts">
-	<div class="contact">
-		<img class="icon" src="" alt="">
-		<span>+84.963.868.345</span>
-		<input type="text" placeholder="* Your name">
+	<div class="v-line"></div>
+	<h2 class="title center">get in touch</h2>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="contact col-md-4">
+		<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/phone.png" alt="">
+			<span>+84.963.868.345</span>
+			<input type="text" placeholder="* Your name">
+		</div>
+		<div class="contact col-md-4">
+			<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/address.png" alt="">
+			<span>12345 nestolab street name - coral springs - florida - usa</span>
+			<input type="text" placeholder="* Your mail">
+		</div>
+		<div class="contact col-md-4">
+			<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/email.png" alt="">
+			<span>helladmin@trend.com</span>
+			<input type="text" placeholder="* Your subject">
+		</div>
+		<div class="col-md-12">
+		<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
+		<div class="btn btn-default"><a href="#">send</a></div>
+		</div>
+		</div>
 	</div>
-	<div class="contact">
-		<img class="icon" src="" alt="">
-		<span>12345 nestolab street name - coral springs - florida - usa</span>
-		<input type="text" placeholder="* Your mail">
-	</div>
-	<div class="contact">
-		<img class="icon" src="" alt="">
-		<span>helladmin@trend.com</span>
-		<input type="text" placeholder="* Your subject">
-	</div>
-	<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
-	<div class="button">send</div>
 </div>
 <?php get_footer(); ?>
