@@ -36,12 +36,12 @@
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+				  <li class="active"><a href="<?php bloginfo('url')?>">Home <span class="sr-only">(current)</span></a></li>
 					<li><a href="#history">history</a></li>
 					<li><a href="#services">services</a></li>
 					<li><a href="#pf-blocks">portfolio</a></li>
 					<li><a href="#pricing">pricing</a></li>
-					<li><a href="#blog">blog</a></li>
+					<li><a href="<?php bloginfo('url')?>/blog/">blog</a></li>
 					<li><a href="#contact">contact</a></li>
 					<li><a><img src="<?php bloginfo('stylesheet_directory')?>/img/search-icon.png" alt=""></a></li>
 				  </ul>

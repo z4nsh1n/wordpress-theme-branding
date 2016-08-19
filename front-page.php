@@ -292,7 +292,7 @@
 		   wp_reset_postdata();	?>
 		</div> <!-- row -->
 		<div class="v-line"></div>
-		<span class="center view-blog"><a href="#">view blog</a></span>
+		<span class="center view-blog"><a href="<?php bloginfo('url')?>/blog/">view blog</a></span>
 		<div class="h-line"></div>
 	</div> <!-- container-fluid -->
 </div>

@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php define( 'WP_USE_THEMES', false ); get_header(); ?>
 
 <div class="row">
 	<div class="col-md-8">
@@ -6,7 +6,7 @@
 		<h1><?php the_title(); ?></h1>
 		<?php the_content(); ?>
 		<?php endwhile; else: ?>
-		<p><?php _e('Sorry, this page does not exist.')?></p>
+		<p><?php _e('page: Sorry, this page does not exist.')?></p>
 		<?php endif; ?>
 	</div>
 	<div class="col-md-4">

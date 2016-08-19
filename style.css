@@ -312,7 +312,7 @@ header img.brand {
 		position: absolute;
 		left: 0;
 		span {
-			//padding: 0 15px;
+		//padding: 0 15px;
 		}
 		margin-left: -47px;
 		*/
@@ -562,4 +562,45 @@ footer .circle a {
     -webkit-column-count: 1;
     column-count: 1;
   }
+}
+.blog.white {
+  background: #fff;
+}
+.blog h2 {
+  padding-top: 15px;
+}
+.blog p {
+  padding-bottom: 25px;
+}
+.blog-container .project-columns {
+  -moz-column-count: 3;
+  -moz-column-gap: 30px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 30px;
+  column-count: 3;
+  column-gap: 30px;
+  margin: 0 200px;
+}
+.blog-container .project-columns div {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.blog-container .project-columns div h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blog-container .project-columns div p {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.blog-container .project-columns .white {
+  background: #fff;
+}
+.blog-container .project-columns .gray-block {
+  background: #d0d0d0;
 }
