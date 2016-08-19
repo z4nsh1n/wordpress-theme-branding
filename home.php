@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div  class="container center">
 	<h1 class="blog title">blogs</h1>
+	<div class="v-line"></div>
 	<div class="blog-container">
 		<div class="project-columns">
 			<?php if (have_posts() ) : $i=2; while(have_posts() ): the_post(); ?>
@@ -15,5 +16,6 @@
 		</div>
 	</div>
 </div> <!-- container-fluid -->
+<div class="v-line"></div>
 
 <?php get_footer(); ?>

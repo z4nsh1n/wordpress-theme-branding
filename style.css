@@ -213,6 +213,7 @@ header img.brand {
 .service img {
   display: block;
   margin: 16px auto;
+  height: 45px;
 }
 .service h4 {
   font-weight: 600;
@@ -594,7 +595,7 @@ footer .circle a {
 }
 .blog-container .project-columns div p {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }

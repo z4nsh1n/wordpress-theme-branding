@@ -67,6 +67,7 @@ class ServiceWidget extends WP_Widget{
 		$title = apply_filters('widget_title', $instance['title']);
 		$service_text = $instance['service_text'];
 		$image_url = $instance['image_url'];
+		$service_link = $instance['service_link'];
 
 		echo $before_widget;
 		?>
@@ -74,7 +75,7 @@ class ServiceWidget extends WP_Widget{
 							<div class="service">
 								<!--<img src="<?php bloginfo('stylesheet_directory')?>/img/service-design.png" alt=""> -->
 								<img src="<?php echo $image_url?>" alt="">
-								<h4><?php echo $title; ?></h4>
+								<h4><a href="<?php echo $service_link?>"><?php echo  $title ?></a></h4>
 								<p>
 									<?php echo $service_text; ?> 
 								</p>
@@ -88,6 +89,7 @@ class ServiceWidget extends WP_Widget{
 			$title = $instance['title'];
 			$text = $instance['service_text'];
 			$image_url = $instance['image_url'];
+			$service_link = $instance['service_link'];
 ?>
 	<p>
 	<input class="upload_image_button button button-primary" type="button" value="Upload Image" />
@@ -96,7 +98,19 @@ class ServiceWidget extends WP_Widget{
 	<br>
 	<img class="icon_preview" style="margin: 15px 0px;" src="<?php echo $image_url?>" alt="">
 	<br>
+	<label for="<?php echo $this->get_field_id('service_link');?>"><?php echo _e('Page');?></label><br>
+	<select id="<?php echo $this->get_field_id('service_link');?>" name="<?php echo $this->get_field_name('service_link');?>">
+		<?php 
+			$pages = get_pages();
+			foreach($pages as $page){
+				if ($page->guid == $service_link ) echo "<option selected value='$page->guid'>$page->post_title</option>";
+				else echo "<option value='$page->guid'>$page->post_title</option>";
 
+			}
+		?>
+	</select>
+
+	<br>
 	<label for="<?php echo $this->get_field_name('title')?>"><?php _e('Title: ');?></label>
 	<input class='widefat' id='<?php echo $this->get_field_id('title');?>' name='<?php echo $this->get_field_name('title')?>' 
 		type="text" value='<?php echo esc_attr($title);?>'>
@@ -114,6 +128,7 @@ class ServiceWidget extends WP_Widget{
 		$instance['title'] = ( ! empty($new_instance['title']) ) ? strip_tags($new_instance['title']) : '';
 		$instance['image_url'] = ( ! empty($new_instance['image_url']) ) ? strip_tags($new_instance['image_url']) : '';
 		$instance['service_text'] = ( ! empty($new_instance['service_text']) ) ? strip_tags($new_instance['service_text']) : '';
+		$instance['service_link'] = ( ! empty($new_instance['service_link']) ) ? strip_tags($new_instance['service_link']) : '';
 		return $instance;
 	}
 }
