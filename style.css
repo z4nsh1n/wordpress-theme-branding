@@ -36,7 +36,7 @@
     margin: 30px 0;
   }
 }
-@media (max-width: 1925px) {
+@media (max-width: 1900px) {
   .navbar-header {
     float: none;
   }
@@ -410,12 +410,16 @@ header img.brand {
 #blog .blog {
   position: relative;
 }
+#blog .blog img {
+  width: 100%;
+}
 #blog .blog-info {
   display: inline-block;
   background: #f7f7f7;
   margin-top: -12%;
   margin-bottom: 5px;
   max-width: 100%;
+  min-width: 75%;
 }
 #blog .blog-info h4 {
   letter-spacing: 4px;

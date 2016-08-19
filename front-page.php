@@ -263,37 +263,33 @@
 	</div> <!-- container -->
 </div>
 <div id="blog">
+	<?php
+		$args = array('posts_per_page' => 2, 'offset' => 0);
+		$blogs = get_posts( $args  );
+	?>
 	<div class="v-line"></div>
 	<h2 class="title center">our blog</h2>
 	<h3>we provide interactive digital experiences to clients</h3>
 	<div class="container-fluid">
 		<div class="row center">
+			<?php foreach ($blogs as $blog): setup_postdata($blog); ?>
+			<?php $img_url = wp_get_attachment_image_src( get_post_thumbnail_id( $blog->ID  ) )[0]; ?>
+
 			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
 				<div class="col-xs-12">
-					<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog1.png" alt="">
+					<img class="img-responsive" src="<?php echo $img_url; ?>" alt="">
 					<div class="blog-info">
 						<h4>
-							photography simple ideas
+							<?php echo  $blog->post_title; ?>
 						</h4>
 						<div>
-							by nanoevil|may,22th,2015
+							by <?php echo the_author_meta( 'user_nicename' , $blog->post->author );?> | <?php the_time('jS F, Y'); ?>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="blog col-md-4 col-md-offset-1 col-sm-10 col-sm-offset-2">
-				<div class="col-xs-12">
-					<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/blog/blog2.png" alt="">
-					<div class="blog-info">
-						<h4>
-							photography simple ideas
-						</h4>
-						<div>
-							by nanoevil|may,22th,2015
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php endforeach; 
+		   wp_reset_postdata();	?>
 		</div> <!-- row -->
 		<div class="v-line"></div>
 		<span class="center view-blog"><a href="#">view blog</a></span>
@@ -340,25 +336,25 @@
 	<h2 class="title center">get in touch</h2>
 	<div class="container-fluid">
 		<div class="row">
-		<div class="contact col-md-4">
-		<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/phone.png" alt="">
-			<span>+84.963.868.345</span>
-			<input type="text" placeholder="* Your name">
-		</div>
-		<div class="contact col-md-4">
-			<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/address.png" alt="">
-			<span>12345 nestolab street name - coral springs - florida - usa</span>
-			<input type="text" placeholder="* Your mail">
-		</div>
-		<div class="contact col-md-4">
-			<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/email.png" alt="">
-			<span>helladmin@trend.com</span>
-			<input type="text" placeholder="* Your subject">
-		</div>
-		<div class="col-md-12">
-		<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
-		<div class="btn btn-default"><a href="#">send</a></div>
-		</div>
+			<div class="contact col-md-4">
+				<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/phone.png" alt="">
+				<span>+84.963.868.345</span>
+				<input type="text" placeholder="* Your name">
+			</div>
+			<div class="contact col-md-4">
+				<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/address.png" alt="">
+				<span>12345 nestolab street name - coral springs - florida - usa</span>
+				<input type="text" placeholder="* Your mail">
+			</div>
+			<div class="contact col-md-4">
+				<img class="icon" src="<?php bloginfo('stylesheet_directory')?>/img/contact/email.png" alt="">
+				<span>helladmin@trend.com</span>
+				<input type="text" placeholder="* Your subject">
+			</div>
+			<div class="col-md-12">
+				<textarea id="mail-text" name="" cols="30" rows="10"></textarea>
+				<div class="btn btn-default"><a href="#">send</a></div>
+			</div>
 		</div>
 	</div>
 </div>

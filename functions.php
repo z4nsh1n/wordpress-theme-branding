@@ -41,6 +41,7 @@ if ( !function_exists('wpt_setup') ) {
 		register_nav_menu('primary', __('Primary navigation', 'wptuts'));
 	}
 	add_theme_support('custom-header');
+	add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme', 'wpt_setup');
 
