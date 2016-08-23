@@ -1,7 +1,13 @@
 <?php get_header(); ?>
 
 <div id="branding">
-	<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/branding-pic.png" alt="">
+	<?php 
+		$landing_img = get_theme_mod('bootstrap_landing_image_setting');
+		if ($landing_img == '') {
+			$landing_img = 'http://static-to-wordpress.dev/wp-content/uploads/2016/08/branding-pic.png';
+		}
+	?>
+	<img class="img-responsive landing" src="<?php echo $landing_img ?>"  alt="">
 	<img src="<?php bloginfo('stylesheet_directory')?>/img/arrow-down.png" alt="">
 	<div class="h-line"></div>
 	<span class="center discovery"><a href="#">Discovery</a></span>

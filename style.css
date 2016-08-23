@@ -175,6 +175,9 @@ header img.brand {
   display: block;
   margin: 0 auto;
 }
+#branding .landing {
+  width: 100%;
+}
 #branding .discovery {
   margin-bottom: 21px;
 }
