@@ -5,4 +5,4 @@ This will be my standard wordpress setup. Gulp syncs the browser and compiles th
 
 https://dribbble.com/shots/2258050-Trend-Creative-Concept
 
-[webpage]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image of webpage"
+![webpage](https://github.com/z4nsh1n/wordpress-theme-branding/blob/master/homepage.jpg) 
