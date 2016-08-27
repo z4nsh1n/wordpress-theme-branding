@@ -113,7 +113,9 @@
 		<!-- TODO: Load images dynamic from project pages -->
 		<?php 
 			$projects = get_posts(array(
-				'category_name' => 'project'
+				'category_name' => 'project',
+				'order' => 'DESC',
+				'posts_per_page' => 15
 			));
 			foreach ($projects as $project) {
 			$img_url = wp_get_attachment_image_src( get_post_thumbnail_id($project->ID ), 'single-post-thumbnail');
