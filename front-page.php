@@ -97,13 +97,30 @@
 			-->
 		</div>
 		<div class="col-xs-12 col-md-2 btn btn-default col-md-offset-1"><a href="#">all</a></div>
+		<?php 
+		foreach(get_option('project_categories') as $project => $id){
+		?>
+		<div class="col-xs-12 col-md-2 btn btn-default "><a href="category/<?php echo $project ?>"><?php echo $project ?></a></div>
+			<!--
 		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">brochure</a></div>
 		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">web</a></div>
 		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">photography</a></div>
 		<div class="col-xs-12 col-md-2 btn btn-default "><a href="#">illustrator</a></div> 
+		-->
+		<?php } ?>
 	</div>
 	<div class="project-columns">
 		<!-- TODO: Load images dynamic from project pages -->
+		<?php 
+			$projects = get_posts(array(
+				'category_name' => 'project'
+			));
+			foreach ($projects as $project) {
+			$img_url = wp_get_attachment_image_src( get_post_thumbnail_id($project->ID ), 'single-post-thumbnail');
+			echo "<a href='$project->guid'><img class='img-responsive' src='$img_url[0]' alt=''></a>";
+			}
+		?>
+		<!--
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/candle.png" alt="">
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cups.png" alt="">
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/landscape.png" alt="">
@@ -113,6 +130,7 @@
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/stamp.png" alt="">
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/cup.png" alt="">
 		<img class="img-responsive" src="<?php bloginfo('stylesheet_directory')?>/img/project/bag.png" alt="">
+		-->
 	</div>
 	<span><a href="#">view more</a></span>
 	<div class="h-line view-more"></div>

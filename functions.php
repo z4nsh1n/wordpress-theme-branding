@@ -139,30 +139,6 @@ add_action('widgets_init', function(){
 });
 
 //Custom theme options
-/*
-function mytheme_customizer( $wp_customize ){
-$wp_customize->add_section( 'my_new_section', array(
-'title' => __('MyTheme Options', 'mytheme'),
-'priority' => 35,
-'capability' => 'edit_theme_options',
-'description' => __('Allows you to customize some example settings', 'mytheme')
-));
-$wp_customize->add_setting('link_textcolor', array(
-'default' => '#000',
-'type' => 'theme_mod',
-'capability' => 'edit_theme_options',
-'transport' => 'refresh'
-));
-$wp_customize->add_control( new WP_Customize_Color_Control($wp_customize, 'mytheme_link_textcolor', array(
-'label'=> __('Link Color', 'mytheme'),
-'section' => 'colors',
-'setting' => 'link_textcolor',
-'priority' => 10
-)));
-}
-add_action( 'customize_register', 'mytheme_customizer' )
- */
-
 function bootstrap_customize_register($wp_customize) {
 	$wp_customize->add_section('bootstrap_landing_image_section', array(
 		'title' => 'Landing Image',
@@ -183,4 +159,45 @@ function bootstrap_customize_register($wp_customize) {
 }
 add_action('customize_register', 'bootstrap_customize_register');
 
+//Admin menu
+
+function my_admin_menu(){
+	//add_submenu_page('themes.php', 'bootstrap theme settings', 'theme settings',
+	//		'manage_options', 'my-submenu-handle', 'my_magic_function' );
+	add_theme_page('theme settings', 'theme settings', 'manage_options', 'themesettings', 'my_magic_function');
+}
+
+function my_magic_function(){
+	$hidden_project_categories='hidden_categories';
+	$opt_name='project_categories';
+	if ( isset($_POST[$hidden_project_categories]) && $_POST[$hidden_project_categories] == 'Y') {
+		print_r($_POST);
+		unset($_POST['Submit']);
+		unset($_POST['hidden_categories']);
+		update_option($opt_name, $_POST);
+?>
+	<div class="updated"> <?php _e('settings saved', 'admin-menu')?></div>
+<?php
+	} // if
+?>
+<h1>Bootstrap theme settings</h1>
+<h2>Projects</h2>
+<p>Select categories to show on the projects section on the front page</p>
+<form name='form1' method='post' action=''>
+<?php
+	$cat_list = get_categories();
+	
+	foreach ($cat_list as $cat) {
+		if (key_exists(str_replace(" ", "_", $cat->name), get_option($opt_name ))) {
+			echo "<input type='checkbox' name='$cat->name' value='$cat->cat_ID' checked> $cat->name, <br>";
+		}else{
+			echo "<input type='checkbox' name='$cat->name' value='$cat->cat_ID' > $cat->name, <br>"; 
+
+		}
+	}
+
+echo "<input type='hidden' name='$hidden_project_categories' value='Y'>";
+echo "<input type='submit' name='Submit' class='btn-default' value='Save Changes'>";
+}
+add_action('admin_menu', 'my_admin_menu');
 ?>
